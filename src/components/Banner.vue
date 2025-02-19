@@ -1,5 +1,5 @@
 <script>
- export default {
+export default {
     name: "Banner",  
   }
 </script>
@@ -47,24 +47,23 @@
 .foto-banner {
   width: 35rem;
 }
-.paragrafo-lg {
-  font-size: 1.375em;
-  line-height: 150%;
-  /* 2.90625em */
-}
 
-.paragrafo {
-  font-size: 1.125em;
-  line-height: 150%;
-  /* 1.6875em */
+
+.cabecalho-lg {
+  font-family: var(--cabecalhos);
+  font-size: 3.35625em;
+  line-height: 120%; /* 4.0275em */
 }
 
 .cabecalho {
-  font-size: 2.3125em;
+  font-family: var(--cabecalhos);
+  font-size: 2.75em;
+  line-height: 120%; /* 3.3em */
 }
 
 .subtitulo-lg {
-  font-size: 1.625em;
+  font-size: 1.9375em;
+  line-height: 150%; /* 2.90625em */
 }
 
 @media only screen and (max-width: 1300px) {
