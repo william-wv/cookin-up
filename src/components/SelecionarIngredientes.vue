@@ -1,7 +1,7 @@
 <script lang="ts">
 import { obterCategorias } from '@/http/index';
 import type ICategoria from '@/interfaces/ICategoria';
-import CardCategoria from './CardCategoria.vue';
+import CardCategoria from '@/components/CardCategoria.vue';
 
 export default {
     data() {
