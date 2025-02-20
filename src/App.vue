@@ -12,11 +12,11 @@ export default {
 </script>
 
 <template>  
-
-  <Banner></Banner>
-
-  <ConteudoPrincipal></ConteudoPrincipal>
-
+  <Banner/>
+  <ConteudoPrincipal />
+  
 </template>
 
-<style />
+
+<style>
+</style>

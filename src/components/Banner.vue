@@ -1,7 +1,5 @@
 <script>
-export default {
-    name: "Banner",  
-  }
+export default {}
 </script>
 
 <template>
