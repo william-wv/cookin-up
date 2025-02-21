@@ -1,13 +1,8 @@
-<script lang="ts">
-import type { PropType } from 'vue';
+<script setup lang="ts">
+import { defineProps } from 'vue';
 import Tag from './Tag.vue';
 
-export default {
-  components: { Tag },
-  props: {
-    ingredientes: { type: Array as PropType<string[]>, required: true }
-  },
-}
+defineProps<{ ingredientes: string[] }>();
 </script>
 
 <template>
@@ -28,6 +23,7 @@ export default {
     </p>
   </section>
 </template>
+
 
 <style scoped>
 .sua-lista-texto {
